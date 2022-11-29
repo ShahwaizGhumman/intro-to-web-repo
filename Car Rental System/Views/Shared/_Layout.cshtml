@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;600;700;800&family=Dancing+Script&family=DynaPuff:wght@600&family=Oswald:wght@200&family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="~/assets/hello2.jpg" alt="remote">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CARS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">PHONE</button>
+            <button class="btn">EMAIL</button>
+        </div>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    
+    <section class="footer">
+        <div class="social">
+            <div class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="http://uskt.edu.pk"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#">ABOUT</a>
+            </li>
+            <li>
+                <a href="#">SERVICES</a>
+            </li>
+            <li>
+                <a href="#">CARS</a>
+            </li>
+            <li>
+                <a href="#">CONTACT US</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            copyright at 2022
+        </p>
+    </section>
+</body>
+</html>
